@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Deployment xmlns="http://schemas.microsoft.com/windowsphone/2009/deployment" AppPlatformVersion="7.1">
+  <App xmlns="" ProductID="{a405edb2-1659-40f4-b279-b6001ca3be34}" Title="SimpleScribe" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="SimpleScribe author" Description="Sample description" Publisher="SimpleScribe">
+    <IconPath IsRelative="true" IsResource="false">Images\ApplicationIcon_62x62.png</IconPath>
+    <Capabilities>
+      <Capability Name="ID_CAP_NETWORKING" />
+      <Capability Name="ID_CAP_WEBBROWSERCOMPONENT" />
+    </Capabilities>
+    <Tasks>
+      <DefaultTask Name="_default" NavigationPage="MainPage.xaml" />
+    </Tasks>
+    <Tokens>
+      <PrimaryToken TokenID="SimpleScribeToken" TaskName="_default">
+        <TemplateType5>
+          <BackgroundImageURI IsRelative="true" IsResource="false">Images\ApplicationIcon_173x173.png</BackgroundImageURI>
+          <Count>0</Count>
+          <Title>SimpleScribe</Title>
+        </TemplateType5>
+      </PrimaryToken>
+    </Tokens>
+  </App>
+</Deployment>
